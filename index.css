@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    font-family: 'Asap',san-serif; 
+}
+
+.header-contianer{
+    background-color:crimson;
+    color: #ffffff;
+    display:flex;
+    height: 6rem;
+    position: fixed;
+    width: 100%;
+    
+
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1rem;
+    width: 100%;
+}
+
+.button{
+    color: chartreuse;
+    display:inline;
+    border-style: solid;
+    border-width:thin;
+    padding: 0.6rem 1.4rem;
+    margin-left: 1.3rem;
+    margin-right:1rem; 
+}
+.info{
+    display: flex;
+    width: 100%;
+    
+    flex-wrap: wrap;
+}
+.navbar{
+    margin-top:2.5rem;
+    margin-left: auto;
+    font-size:1rem;
+}
+a{
+    text-decoration:none;
+}
+main{
+    background-image: linear-gradient(25deg, #e41d99, #c466b7, #948dd5, #0fadf5)
+}
+.para{
+    text-align:center;
+    color:#ffffff;
+    font-size:2rem;
+}
+.about{
+    background-image: linear-gradient(25deg, #dd07e7, #ed6bbc, #f49f8e, #f2ce55);
+    text-align: center;
+}
+.dotted{
+    text-align:center;
+    border-style: dotted;
+    border-width: 0.75rem;
+    font-size: 3rem;
+}
+.customer-form{
+    border-style: solid;
+    padding:10px;
+    margin: auto;
+    width: 50%;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+input[type="submit"]{
+    width:30%;
+    background-color: black;
+    color: white;
+    padding:10px 18px;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form div.form-action-buttons{
+    text-align: center;
+}
+#form{
+    background-image: linear-gradient(25deg, #3e6154, #775a6e, #a84a88, #d718a3);
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size:2rem;
+}
+.mob-wrapper{
+    display: none;
+}
+.navbutton{
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: -4.7rem;
+    margin-right: -1rem;
+    height: 3rem;
+    font-weight: -59rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: coral;
+}
+#head{
+    font-size:2rem;
+}
+@media(max-width:948px){
+    .navbar{
+        display:none;
+
+    }
+    .navbar a{
+        display:none;
+    }
+    .main-container{
+        width:100%;
+    }
+    main{
+        width: 100%;
+    }
+    .mob-wrapper{
+        display: block;
+        margin-top: 1.8rem;
+        margin-right: 1.8rem;
+        font-size: 1rem;
+        height: -21rem;
+        width: 2.6rem;
+    }
+}
+
+@media(min-width:948px){
+  .col{
+    width: 100%;
+    
+}
+    
+    
+}
+
